@@ -1,0 +1,286 @@
+
+
+body {
+	background-color: black;
+}
+
+.content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: -2;
+}
+
+.camera {
+	position: absolute;
+	width: 568px;
+	height: 406px;
+	background: url(assets/photos/camera.png);
+	background-size: 100%;
+	display: block;
+  	right: 568px;
+  	top: 230px; 
+
+}
+
+.camera: hover {
+	cursor: url(assets/photos/eyedrop.png), default;
+}
+
+
+.green-8ccc80 {
+	background: #8CCC80;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left:768px;
+	top: 320px;
+	cursor: pointer;
+}
+
+.green-8ccc80:hover:after {
+	content: url(../photos/lightgreen.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+
+}
+
+.orange-ea9112 {
+	background: #EA9112;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 50%;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 785px;
+	top: 380px;
+	cursor: pointer;
+
+}
+
+.orange-ea9112:hover:after{
+	content: url(../photos/orange.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.bluegrey-9eb5c7 {
+	border-radius: 50%;
+	background: #9EB5C7;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 706px;
+	top: 460px;
+	cursor: pointer;
+}
+
+.bluegrey-9eb5c7:hover:after {
+	content: url(../photos/bluegrey.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+
+}
+
+.darkyellow-b5a461 {
+	border-radius: 50%;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: #B5A461;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	left: 896px;
+	top: 360px;
+	cursor: pointer;
+}
+
+.darkyellow-b5a461:hover:after {
+	content: url(../photos/dyellow.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.lightnavy-3e5672 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: #3E5672;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	left: 870px;
+	top: 440px;
+	cursor: pointer;
+}
+
+.lightnavy-3e5672:hover:after {
+	content: url(../photos/lnavy.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.darknavy-051933 {
+	border-radius: 50%;
+	position: absolute;
+	background: #051933;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	left: 880px;
+	top: 520px;
+	cursor: pointer;
+}
+
+.darknavy-051933:hover:after {
+	content: url(../photos/dnavy.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.pink-e4b7b4 {
+	border-radius: 50%;
+	background: #E4B7B4;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	right: 733px;
+	top: 400px;
+	cursor: pointer;
+
+}
+
+.pink-e4b7b4:hover:after {
+	content: url(../photos/pink.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.darkgreen-2c7649 {
+	border-radius: 50%;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: #2C7649;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	right: 699px;
+	top: 500px;
+	cursor: pointer;
+}
+
+.darkgreen-2c7649:hover:after {
+	content: url(../photos/dgreen.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.black-09060f {
+	border-radius: 50%;
+	background: #09060F;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	left: 1007px;
+	top: 600px;
+	cursor: pointer;
+}
+
+.black-09060f:hover:after {
+	content: url(../photos/black.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.lightblue-a1d2f1{
+	border-radius: 50%;
+	background: #A1D2F1;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	left: 1030px;
+	top: 410px;
+	cursor: pointer;
+}
+
+.lightblue-a1d2f1:hover:after {
+	content: url(../photos/lblue.jpg);
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: -1;
+}
+
+.type {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 74px;
+	position: absolute;
+	width: 752px;
+	height: 214px;
+	color: #FFFFFF;
+	top: 40px;
+	left: 60px;
+}
+
+.directions {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 55px;
+	text-align: right;
+	color: #FFFFFF;
+	position: absolute;
+	right: 70px;
+	bottom: 60px;
+}
